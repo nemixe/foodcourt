@@ -6,6 +6,8 @@
     <title>food court</title>
     <link rel="icon" href="/img/icons/icon-16x16.png" type="image/png" sizes="16x16">
 
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
     <link rel="manifest" href="manifest.json" />
     <!-- ios support -->
     <link rel="apple-touch-icon" href="img/icons/icon-96x96.png" />
@@ -16,13 +18,12 @@
     <meta name="apple-mobile-web-app-status-bar" content="#fdfdfd" />
     <meta name="theme-color" content="#fdfdfd" />
 
-    <link href="./css/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="flex flex-col h-screen">
     <div class="sm:px-20 md:px-40 flex flex-col flex-grow relative">
         <c-header></c-header>
-        <div class="flex-grow flex flex-col justify-center space-y-6 py-28">
-            <div id="menu" class="grid grid-cols-4 gap-6 w-full">
+        <div class="flex-grow flex flex-col justify-center space-y-6 py-28 px-2">
+            <div id="menu" class="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full">
                 <div class="text-center col-span-4 my-12">
                     Loading...
                 </div>
@@ -34,7 +35,6 @@
         <a href="https://iconscout.com/icons/chinese-food" target="_blank">Chinese food Icon</a> by <a href="https://iconscout.com/contributors/owl-studio" target="_blank">Owl Studio</a>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="/js/index.js"></script>
 <script src="/js/component/card.js"></script>
 <script src="/js/component/header.js"></script>

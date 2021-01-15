@@ -4,7 +4,6 @@ const assets = [
   "/",
   "/index.html",
   "/detail.html",
-  "/css/tailwind.min.css",
   "/js/app.js",
   "/js/index.js",
   "/js/detail.js",

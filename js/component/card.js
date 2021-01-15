@@ -14,7 +14,7 @@ class FoodCard extends HTMLElement {
                 ${this.label}
             </div>
             <span class="absolute top-0 h-full w-full z-10 bg-gradient-to-t from-purple-400 to-pink-500 opacity-75"></span>
-            <img src="${this.image}" class="absolute top-0 h-full w-full object-cover" />
+            <img src="${this.image}" alt="${this.label}" class="absolute top-0 h-full w-full object-cover" />
         </div>
     `;
     }
