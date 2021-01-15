@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build:css": "postcss css/tailwind.css -o css/build.css",
+    "build:css": "postcss ./css/tailwind.css -o ./css/build.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
